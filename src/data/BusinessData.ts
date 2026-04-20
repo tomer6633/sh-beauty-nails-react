@@ -1,0 +1,56 @@
+export const business = {
+  name: "S&H Beauty Nails",
+  tagline: "Where Every Detail Matters",
+  description: "London's trusted downtown nail salon — delivering stunning nails, flawless finishes, and a relaxing experience since 2014.",
+  phone: "(519) 672-3428",
+  tel: "tel:+15196723428",
+  address: "394 Richmond St, London, ON N6A 3C7",
+  neighbourhood: "Downtown London",
+  hours: "Mon–Sat: 10am–7pm | Sun: 11am–5pm",
+  rating: "4.7",
+  reviews: "30+",
+  heroImage: "https://images.unsplash.com/photo-1604654894610-df63bc536371?w=1600&q=80",
+  services: [
+    {
+      title: "Manicure",
+      description: "Classic, gel, or shellac — perfectly shaped and polished nails that last.",
+      image: "https://images.unsplash.com/photo-1604654894610-df63bc536371?w=800&q=80",
+      slug: "manicure",
+    },
+    {
+      title: "Pedicure",
+      description: "Relaxing foot care and polished toes — treat yourself to a full spa pedicure.",
+      image: "https://images.unsplash.com/photo-1519751138087-5bf79df62d5b?w=800&q=80",
+      slug: "pedicure",
+    },
+    {
+      title: "Gel Nails",
+      description: "Long-lasting gel extensions and overlays in any colour or finish you love.",
+      image: "https://images.unsplash.com/photo-1604654894610-df63bc536371?w=800&q=80",
+      slug: "gel-nails",
+    },
+    {
+      title: "Acrylic Nails",
+      description: "Durable acrylic sets — natural or dramatic, built to your style.",
+      image: "https://images.unsplash.com/photo-1604654894610-df63bc536371?w=800&q=80",
+      slug: "acrylic-nails",
+    },
+    {
+      title: "Nail Art",
+      description: "Custom designs, French tips, ombre, and more — your nails as art.",
+      image: "https://images.unsplash.com/photo-1604654894610-df63bc536371?w=800&q=80",
+      slug: "nail-art",
+    },
+    {
+      title: "Waxing",
+      description: "Quick, precise waxing services for smooth, beautiful skin.",
+      image: "https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?w=800&q=80",
+      slug: "waxing",
+    },
+  ],
+  reviews_list: [
+    { name: "Sarah M.", text: "Took me in right away, no appointment needed. My gel nails look absolutely perfect.", stars: 5 },
+    { name: "Jessica T.", text: "Simon is so talented — best nail art I've ever had. This is my new regular spot.", stars: 5 },
+    { name: "Linda K.", text: "Clean, friendly, and very affordable. They really take care of every detail.", stars: 5 },
+  ],
+}
